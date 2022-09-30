@@ -7,7 +7,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-style: normal;
-    background: #FFFFFF;
+    background: var(--accent-color);
 }
 
 ul {
@@ -18,7 +18,7 @@ ul {
 /* HEADER */
 /* header background */
 .page-header {
-background: #FFFFFF;
+background: var(--accent-color);
 }
 
 /* logo */
@@ -33,7 +33,7 @@ background: #FFFFFF;
         letter-spacing: 0.03em;
 }
 .page-header .web {
-    color: #2196F3;}
+    color: var(--link-focus);}
 .page-header .studio {
     color: #000000;}
 
@@ -91,19 +91,20 @@ background: #FFFFFF;
 }
 
 /* button */
-.button {
-    color: #FFFFFF;
-    background: #2196F3;
+.hero .button {
+    color: var(--accent-color);
+    background: var(--link-focus);
     border-radius: 4px;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--link-focus);
+.hero .button:hover,
+.hero .button:focus {
+    color: var(--accent-color);
+    background: #0b85e8;
 }
 
 /* Наші переваги */
 .benefits .Our-advantages {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .benefits .title {
@@ -146,7 +147,7 @@ background: #F5F4FA;
 }
 
 .team .background {
-    background: #FFFFFF;
+    background: var(--accent-color);
 }
 
 .team .title-team {
@@ -199,13 +200,13 @@ background: #F5F4FA;
         line-height: 1.2;
         /* identical to box height */
         letter-spacing: 0.03em;
-        color: #2196F3;
+        color: var(--link-focus);
 }
 .footer .web {
-    color: #2196F3;
+    color: var(--link-focus);
 }
 .footer .studio {
-    color: #FFFFFF;
+    color: var(--accent-color);
 }
 
 
@@ -218,7 +219,7 @@ background: #F5F4FA;
         line-height: 1.71;
         /* or 171% */
         letter-spacing: 0.03em;
-        color: #FFFFFF;
+        color: var(--accent-color);
 }
 .address-link:hover,
 .address-link:focus {
@@ -243,3 +244,14 @@ background: #F5F4FA;
 }
 
 
+/* button */
+.button .button-Portfolio{
+    color: var(--title-text-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.button .button-Portfolio:hover,
+.button .button-Portfolio:focus {
+    color: var(--accent-color);
+    background: var(--link-focus);
+}
