@@ -1,0 +1,245 @@
+:root { 
+    --primary-text-color: #757575;  /* var(--primary-text-color) Line */
+    --title-text-color: #212121;  /* var(--title-text-color) Title */
+    --accent-color: #FFFFFF;  /* var(--accent-color) Accent */
+    --link-focus: #2196F3; /* var(--link-focus) */
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    background: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* HEADER */
+/* header background */
+.page-header {
+background: #FFFFFF;
+}
+
+/* logo */
+.page-header
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+}
+.page-header .web {
+    color: #2196F3;}
+.page-header .studio {
+    color: #000000;}
+
+
+/* Site-nav */
+.site-nav
+.link {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+        color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--link-focus);
+}
+
+
+/* Auth-nav */
+.auth-nav
+.link {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--link-focus);
+}
+
+
+
+/* HERO */
+.page-main .hero {
+    background: #2F303A;
+}
+
+.hero .title {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    /* or 136% */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+/* button */
+.button {
+    color: #FFFFFF;
+    background: #2196F3;
+    border-radius: 4px;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--link-focus);
+}
+
+/* Наші переваги */
+.benefits .Our-advantages {
+    color: #212121;
+}
+
+.benefits .title {
+    text-decoration: none;
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.benefits .line {
+    text-decoration: none;
+    font-family: inherit;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+        letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+/* Чим ми займаємося */
+.services .title {
+    text-decoration: none;
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+.team {
+background: #F5F4FA;
+}
+
+.team .background {
+    background: #FFFFFF;
+}
+
+.team .title-team {
+    text-decoration: none;
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+}
+
+
+.team .title {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team .line {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+
+/* Footer */
+.footer {
+        background: #2F303A;
+    }
+
+
+    /* logo */
+.footer .logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+.footer .web {
+    color: #2196F3;
+}
+.footer .studio {
+    color: #FFFFFF;
+}
+
+
+.address-link {
+    text-decoration: none;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--link-focus);
+}
+
+
+.footer .link {
+    text-decoration: none;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.address .link:hover,
+.address .link:focus {
+    color: var(--link-focus);
+}
+
+
