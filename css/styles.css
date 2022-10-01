@@ -96,6 +96,13 @@ background: var(--accent-color);
 
 /* button */
 .hero .button {
+    text-decoration: none;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        /* identical to box height, or 188% */
+        letter-spacing: 0.06em;
     color: var(--accent-color);
     background: var(--link-focus);
     border-radius: 4px;
@@ -106,7 +113,6 @@ background: var(--accent-color);
     background: #0b85e8;
     cursor: pointer;
 }
-
 
 
 /* Наші переваги */
@@ -261,17 +267,38 @@ background: #F5F4FA;
 
 /* PORTFOLIO */
 /* button */
-.button .button-Portfolio{
+.portfolio .button-Portfolio{
+    text-decoration: none;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.03em;
     color: var(--title-text-color);
     background: #F5F4FA;
     border-radius: 4px;
 }
-.button .button-Portfolio:hover,
-.button .button-Portfolio:focus {
+.portfolio .button-Portfolio:hover,
+.portfolio .button-Portfolio:focus {
     color: var(--accent-color);
     background: var(--link-focus);
     cursor: pointer;
 }
+
+
+/* portfolio - h2 */
+.portfolio .title {
+    text-decoration: none;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--title-text-color);
+}
+
+
 
 /* portfolio - p */
 .portfolio .line {
