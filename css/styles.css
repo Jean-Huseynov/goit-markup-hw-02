@@ -7,6 +7,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-style: normal;
+    color: var(--title-text-color);
     background: var(--accent-color);
 }
 
@@ -52,6 +53,7 @@ background: var(--accent-color);
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--link-focus);
+    cursor: pointer;
 }
 
 
@@ -69,6 +71,7 @@ background: var(--accent-color);
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--link-focus);
+    cursor: pointer;
 }
 
 
@@ -78,6 +81,7 @@ background: var(--accent-color);
     background: #2F303A;
 }
 
+/* hero - h1 */
 .hero .title {
     text-decoration: none;
     font-family: inherit;
@@ -100,13 +104,17 @@ background: var(--accent-color);
 .hero .button:focus {
     color: var(--accent-color);
     background: #0b85e8;
+    cursor: pointer;
 }
+
+
 
 /* Наші переваги */
 .benefits .Our-advantages {
     color: var(--title-text-color);
 }
 
+/* benefits - h3 */
 .benefits .title {
     text-decoration: none;
     font-family: inherit;
@@ -118,6 +126,8 @@ background: var(--accent-color);
     color: var(--title-text-color);
 }
 
+
+/* benefits - p */
 .benefits .line {
     text-decoration: none;
     font-family: inherit;
@@ -130,7 +140,7 @@ background: var(--accent-color);
 }
 
 
-/* Чим ми займаємося */
+/* Чим ми займаємося h3 */
 .services .title {
     text-decoration: none;
     font-family: inherit;
@@ -150,6 +160,7 @@ background: #F5F4FA;
     background: var(--accent-color);
 }
 
+/* team title-team h3 */
 .team .title-team {
     text-decoration: none;
     font-family: inherit;
@@ -160,7 +171,7 @@ background: #F5F4FA;
         color: var(--title-text-color);
 }
 
-
+/* team title h3 */
 .team .title {
     text-decoration: none;
     font-family: inherit;
@@ -172,6 +183,7 @@ background: #F5F4FA;
     color: var(--title-text-color);
 }
 
+/* team line p */
 .team .line {
     text-decoration: none;
     font-family: inherit;
@@ -209,7 +221,7 @@ background: #F5F4FA;
     color: var(--accent-color);
 }
 
-
+/* address */
 .address-link {
     text-decoration: none;
     font-family: 'Roboto';
@@ -226,7 +238,7 @@ background: #F5F4FA;
     color: var(--link-focus);
 }
 
-
+/* mailto  tel */
 .footer .link {
     text-decoration: none;
     font-family: 'Roboto';
@@ -244,6 +256,10 @@ background: #F5F4FA;
 }
 
 
+
+
+
+/* PORTFOLIO */
 /* button */
 .button .button-Portfolio{
     color: var(--title-text-color);
@@ -254,4 +270,19 @@ background: #F5F4FA;
 .button .button-Portfolio:focus {
     color: var(--accent-color);
     background: var(--link-focus);
+    cursor: pointer;
 }
+
+/* portfolio - p */
+.portfolio .line {
+text-decoration: none;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
